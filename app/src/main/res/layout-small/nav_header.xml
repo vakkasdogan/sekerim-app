@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="195dp"
+    android:background="@color/colorAccent"
+    android:gravity="start"
+    android:orientation="vertical"
+    android:padding="28dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="92dp"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Şekerim"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vkksdgn2_gmail_com"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

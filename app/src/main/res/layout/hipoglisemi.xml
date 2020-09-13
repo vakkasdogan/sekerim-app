@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/hipo_arka"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/hipo_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:src="@drawable/hipo1" />
+
+                <ImageView
+                    android:id="@+id/hipo_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="187dp"
+                    android:layout_below="@+id/hipo_1"
+                    android:src="@drawable/hipo2" />
+
+                <ImageView
+                    android:id="@+id/hipo_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="224dp"
+                    android:layout_below="@+id/hipo_2"
+                    android:src="@drawable/hipo3" />
+
+                <ImageView
+                    android:id="@+id/hipo_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:layout_below="@+id/hipo_3"
+                    android:src="@drawable/hipo4" />
+
+                <ImageView
+                    android:id="@+id/hipo_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="153dp"
+                    android:layout_below="@+id/hipo_4"
+                    android:src="@drawable/hipo5" />
+
+                <ImageView
+                    android:id="@+id/hipo_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="108dp"
+                    android:layout_below="@+id/hipo_5"
+                    android:src="@drawable/hipo6" />
+
+                <ImageView
+                    android:id="@+id/hipo_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_below="@+id/hipo_6"
+                    android:src="@drawable/hipo7" />
+
+                <ImageView
+                    android:id="@+id/hipo_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/hipo_7"
+                    android:src="@drawable/hipo8" />
+
+                <ImageView
+                    android:id="@+id/hipo_9"
+                    android:layout_width="370dp"
+                    android:layout_height="82dp"
+                    android:layout_below="@+id/hipo_7"
+                    android:layout_marginTop="45dp"
+                    android:src="@drawable/hipo_siringa" />
+
+                <ImageView
+                    android:id="@+id/hipo_10"
+                    android:layout_width="392dp"
+                    android:layout_height="162dp"
+                    android:layout_below="@+id/hipo_8"
+                    android:src="@drawable/hipo9" />
+
+                <ImageView
+                    android:id="@+id/hipo_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/hipo_10"
+                    android:src="@drawable/hipo10" />
+
+                <ImageView
+                    android:id="@+id/hipo_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp"
+                    android:layout_below="@+id/hipo_11"
+                    android:src="@drawable/hipo11"
+                    android:layout_marginStart="20dp"/>
+
+                <ImageView
+                    android:id="@+id/hipo_13"
+                    android:layout_width="61dp"
+                    android:layout_height="102dp"
+                    android:layout_below="@+id/hipo_12"
+                    android:src="@drawable/hipo_number1" />
+
+                <ImageView
+                    android:id="@+id/hipo_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="102dp"
+                    android:layout_below="@+id/hipo_12"
+                    android:layout_marginStart="61dp"
+                    android:src="@drawable/hipo12" />
+                <ImageView
+                    android:id="@+id/hipo_15"
+                    android:layout_width="61dp"
+                    android:layout_height="102dp"
+                    android:layout_below="@+id/hipo_14"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/hipo_number2" />
+
+                <ImageView
+                    android:id="@+id/hipo_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="102dp"
+                    android:layout_below="@+id/hipo_14"
+                    android:layout_marginStart="61dp"
+                    android:layout_marginTop="30dp"
+
+                    android:src="@drawable/hipo13" />
+
+                <ImageView
+                    android:id="@+id/hipo_17"
+                    android:layout_width="64dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@+id/hipo_12"
+                    android:layout_marginStart="155dp"
+                    android:layout_marginTop="31dp"
+                    android:src="@drawable/hipo_seker" />
+
+                <ImageView
+                    android:id="@+id/hipo_18"
+                    android:layout_width="50dp"
+                    android:layout_height="49dp"
+                    android:layout_below="@+id/hipo_12"
+                    android:layout_marginStart="340dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginEnd="260dp"
+                    android:layout_marginBottom="260dp"
+                    android:src="@drawable/hipo_meyvesuyu" />
+                <ImageView
+                    android:id="@+id/hipo_19"
+                    android:layout_width="50dp"
+                    android:layout_height="49dp"
+                    android:layout_below="@+id/hipo_14"
+                    android:layout_marginStart="340dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginEnd="260dp"
+                    android:layout_marginBottom="260dp"
+                    android:src="@drawable/hipo14" />
+                <ImageView
+                    android:id="@+id/hipo_20"
+                    android:layout_width="61dp"
+                    android:layout_height="102dp"
+                    android:layout_below="@+id/hipo_15"
+                    android:layout_marginTop="30dp"
+
+                    android:src="@drawable/hipo15" />
+
+                <ImageView
+                    android:id="@+id/hipo_21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="240dp"
+                    android:layout_below="@+id/hipo_15"
+                    android:layout_marginStart="61dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/hipo16" />
+
+                <ImageView
+                    android:id="@+id/hipo_22"
+                    android:layout_width="44dp"
+                    android:layout_height="51dp"
+                    android:layout_below="@+id/hipo_16"
+                    android:layout_marginStart="350dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="260dp"
+                    android:layout_marginBottom="260dp"
+                    android:src="@drawable/hipo17" />
+
+                <ImageView
+                    android:id="@+id/hipo_23"
+                    android:layout_width="92dp"
+                    android:layout_height="59dp"
+                    android:layout_below="@+id/hipo_16"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="350dp"
+                    android:layout_marginTop="103dp"
+                    android:layout_marginEnd="260dp"
+                    android:layout_marginBottom="260dp"
+                    android:src="@drawable/hipo18" />
+
+                <ImageView
+                    android:id="@+id/hipo_24"
+                    android:layout_width="118dp"
+                    android:layout_height="74dp"
+                    android:layout_below="@+id/hipo_16"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="189dp"
+                    android:src="@drawable/hipo19" />
+                <ImageView
+                    android:id="@+id/hipo_25"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/hipo_24"
+                    android:src="@drawable/hipo20" />
+                <ImageView
+                    android:id="@+id/hipo_26"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp"
+                    android:layout_below="@+id/hipo_25"
+                    android:src="@drawable/hipo21"
+                    android:layout_marginStart="20dp"/>
+                <ImageView
+                    android:id="@+id/hipo_27"
+                    android:layout_width="61dp"
+                    android:layout_height="102dp"
+                    android:layout_below="@+id/hipo_26"
+                    android:src="@drawable/hipo22" />
+                <ImageView
+                    android:id="@+id/hipo_28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="102dp"
+                    android:layout_below="@+id/hipo_26"
+                    android:layout_marginStart="61dp"
+                    android:src="@drawable/hipo23" />
+                <ImageView
+                android:id="@+id/hipo_29"
+                android:layout_width="61dp"
+                android:layout_height="102dp"
+                android:layout_below="@+id/hipo_28"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/hipo25" />
+
+                <ImageView
+                    android:id="@+id/hipo_31"
+                    android:layout_width="86dp"
+                    android:layout_height="56dp"
+                    android:layout_below="@+id/hipo_28"
+                    android:layout_marginStart="300dp"
+                    android:layout_marginTop="-81dp"
+                    android:layout_marginEnd="260dp"
+                    android:layout_marginBottom="260dp"
+                    android:src="@drawable/hipo24" />
+
+                <ImageView
+                    android:id="@+id/hipo_30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="102dp"
+                    android:layout_below="@+id/hipo_28"
+                    android:layout_marginStart="61dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/hipo26" />
+
+                <ImageView
+                    android:id="@+id/hipo_32"
+                    android:layout_width="94dp"
+                    android:layout_height="57dp"
+                    android:layout_below="@+id/hipo_28"
+                    android:layout_marginStart="300dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginEnd="260dp"
+                    android:layout_marginBottom="260dp"
+                    android:src="@drawable/hipo27" />
+                <ImageView
+                    android:id="@+id/hipo_33"
+                    android:layout_width="61dp"
+                    android:layout_height="102dp"
+                    android:layout_below="@+id/hipo_29"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/hipo35" />
+
+                <ImageView
+                    android:id="@+id/hipo_34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="152dp"
+                    android:layout_below="@+id/hipo_29"
+                    android:layout_marginStart="61dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/hipo36" />
+
+                <ImageView
+                    android:id="@+id/hipo_35"
+                    android:layout_width="221dp"
+                    android:layout_height="51dp"
+                    android:layout_below="@+id/hipo_29"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="66dp"
+                    android:src="@drawable/hipo_siringa" />
+
+                <ImageView
+                    android:id="@+id/hipo_36"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/hipo_29"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="370dp"
+                    android:layout_marginTop="134dp"
+                    android:layout_marginEnd="260dp"
+                    android:layout_marginBottom="260dp"
+                    android:src="@drawable/hipo37" />
+                <ImageView
+                    android:id="@+id/hipo_37"
+                    android:layout_width="61dp"
+                    android:layout_height="102dp"
+                    android:layout_below="@+id/hipo_34"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/hipo28" />
+
+                <ImageView
+                    android:id="@+id/hipo_38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="203dp"
+                    android:layout_below="@+id/hipo_34"
+                    android:layout_marginStart="61dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/hipo29" />
+
+                <ImageView
+                    android:id="@+id/hipo_39"
+                    android:layout_width="132dp"
+                    android:layout_height="84dp"
+                    android:layout_below="@+id/hipo_34"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginTop="148dp"
+                    android:layout_marginEnd="260dp"
+                    android:layout_marginBottom="260dp"
+                    android:src="@drawable/hipo30" />
+                <ImageView
+                    android:id="@+id/hipo_40"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/hipo_38"
+                    android:src="@drawable/hipo31" />
+
+                <ImageView
+                    android:id="@+id/hipo_41"
+                    android:layout_width="361dp"
+                    android:layout_height="272dp"
+                    android:layout_below="@+id/hipo_40"
+                    android:src="@drawable/hipo32" />
+
+                <ImageView
+                    android:id="@+id/hipo_42"
+                    android:layout_width="50dp"
+                    android:layout_height="268dp"
+                    android:layout_below="@+id/hipo_40"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@id/hipo_41"
+                    android:src="@drawable/hipo34" />
+                <ImageView
+                    android:id="@+id/hipo_43"
+                    android:layout_width="361dp"
+                    android:layout_height="272dp"
+                    android:layout_below="@+id/hipo_42"
+                    android:src="@drawable/hipo48" />
+
+                <ImageView
+                    android:id="@+id/hipo_44"
+                    android:layout_width="50dp"
+                    android:layout_height="268dp"
+                    android:layout_below="@+id/hipo_42"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@id/hipo_41"
+                    android:src="@drawable/hipo34" />
+
+                <ImageView
+                    android:id="@+id/hipo_45"
+                    android:layout_width="match_parent"
+                    android:layout_height="259dp"
+                    android:layout_below="@+id/hipo_43"
+                    android:src="@drawable/hipo38" />
+
+                <ImageView
+                    android:id="@+id/hipo_46"
+                    android:layout_width="107dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/hipo_45"
+                    android:src="@drawable/hipo39" />
+                <ImageView
+                    android:id="@+id/hipo_47"
+                    android:layout_width="107dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="107dp"
+                    android:layout_below="@+id/hipo_45"
+                    android:src="@drawable/hipo40" />
+                <ImageView
+                    android:id="@+id/hipo_48"
+                    android:layout_width="107dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="200dp"
+                    android:layout_below="@+id/hipo_45"
+                    android:src="@drawable/hipo41" />
+                <ImageView
+                    android:id="@+id/hipo_49"
+                    android:layout_width="107dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="300dp"
+                    android:layout_below="@+id/hipo_45"
+                    android:src="@drawable/hipo42" />
+                <ImageView
+                    android:id="@+id/hipo_50"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/hipo_49"
+                    android:src="@drawable/hipo43" />
+                <ImageView
+                    android:id="@+id/hipo_51"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/hipo_50"
+                    android:src="@drawable/hipo44" />
+                <ImageView
+                    android:id="@+id/hipo_52"
+                    android:layout_width="370dp"
+                    android:layout_height="82dp"
+                    android:layout_below="@+id/hipo_50"
+                    android:layout_marginTop="45dp"
+                    android:src="@drawable/hipo45" />
+
+                <ImageView
+                    android:id="@+id/hipo_53"
+                    android:layout_width="352dp"
+                    android:layout_height="52dp"
+                    android:layout_below="@+id/hipo_50"
+                    android:layout_marginTop="160dp"
+                    android:src="@drawable/hipo_siringa" />
+                <ImageView
+                    android:id="@+id/hipo_54"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/hipo_51"
+                    android:src="@drawable/hipo46" />
+
+                <ImageView
+                    android:id="@+id/hipo_55"
+                    android:layout_width="361dp"
+                    android:layout_height="272dp"
+                    android:layout_below="@+id/hipo_54"
+                    android:src="@drawable/hipo48" />
+
+                <ImageView
+                    android:id="@+id/hipo_56"
+                    android:layout_width="50dp"
+                    android:layout_height="268dp"
+                    android:layout_below="@+id/hipo_54"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@id/hipo_55"
+                    android:src="@drawable/hipo34" />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

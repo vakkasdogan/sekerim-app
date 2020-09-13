@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Şekerim</string>
+    <string name="diabetes">diabetes</string>
+    <string name="errror">error</string>
+    <string name="succesfull">succesfull...</string>
+    <string name="login_bar">login</string>
+    <string name="CREATE_BAR">create account</string>
+    <string name="email_field">Email field can not be empty!</string>
+    <string name="password_field">Password field can not be empty!</string>
+    <string name="message">Home</string>
+    <string name="chat">Yıllık Kontrollerim</string>
+    <string name="alarm">Alarm Manager </string>
+    <string name="profile">Eğitim Katalogları</string>
+    <string name="predict">Kan Şekeri Takip Çizelgesi</string>
+    <string name="communicate">communicate</string>
+    <string name="share">share</string>
+    <string name="send">follow us</string>
+    <string name="email">ınform</string>
+    <string name="news">Türkiye Diyabet Vakfı</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="next_page">gelecek sayfa</string>
+    <string name="home" >Anasayfa</string>
+    <string name="aboutus" >Other Applications</string>
+    <string name="inform" >Şuanki kan şekeri değeriniz tehlikeli gözüküyor. Lütfen ilaçlarınızı alınız.</string>
+    <string name="ho_geldiniz">Welcome</string>
+    <string name="hesab_m_var">Member</string>
+    <string name="dil_de_i_tirme">Change language</string>
+    <string name="yeni_hesap_olu_tur">Create New Account</string>
+    <string name="giri_yap_n_z">Log In</string>
+    <string name="email_giriniz">Enter Email</string>
+    <string name="ifre_giriniz">Enter Password</string>
+    <string name="giri_yap">Log In</string>
+    <string name="diyabet_nedir">Diyabet Nedir?</string>
+    <string name="no_cardetails">Click on the button below to begin creating your reminder!</string>
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+
+    <string name="add_reminder">Reminder</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+
+    <string name="editor_activity_title_new_reminder">Add Reminder Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Reminder</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this Reminder?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+
+    <string name="reminder_title">AlarmReminder</string>
+
+
+</resources>

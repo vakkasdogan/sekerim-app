@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Şekerim</string>
+    <string name="diabetes">DİYABET</string>
+    <string name="errror">HATA VAR</string>
+    <string name="succesfull">KAYIT BAŞARILI...</string>
+    <string name="login_bar">OTURUM AÇ</string>
+    <string name="CREATE_BAR">HESAP OLUŞTUR</string>
+    <string name="email_field">Email alanı boş kalamaz!</string>
+    <string name="password_field">Şifre alanı boş kalamaz!</string>
+    <string name="message">Anasayfa</string>
+    <string name="chat">Hatırlatma</string>
+    <string name="alarm">Çalar Saat </string>
+    <string name="profile">Eğitim Katalogları</string>
+    <string name="predict">Kan Şekeri Takip Çizelgesi</string>
+    <string name="communicate">İletişim</string>
+    <string name="share">Paylaş</string>
+    <string name="send">Takip Edin</string>
+    <string name="email">Bilgi</string>
+    <string name="news">Türkiye Diyabet Vakfı</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="next_page">gelecek sayfa</string>
+    <string name="home">Anasayfa</string>
+    <string name="aboutus">Diğer Uygulamalarımız</string>
+    <string name="inform">Şuanki kan şekeri değeriniz tehlikeli gözüküyor. Lütfen ilaçlarınızı alınız.</string>
+    <string name="ho_geldiniz">Hoşgeldiniz</string>
+    <string name="hesab_m_var">hesabım var</string>
+    <string name="dil_de_i_tirme">dil Değiştirme</string>
+    <string name="yeni_hesap_olu_tur">yeni hesap oluştur</string>
+    <string name="giri_yap_n_z">Giriş Yapınız</string>
+    <string name="email_giriniz">email_giriniz</string>
+    <string name="ifre_giriniz">şifre_giriniz</string>
+    <string name="giri_yap">giriş yapınız</string>
+    <string name="diyabet_nedir">Diyabet Nedir?</string>
+    <string name="no_cardetails">Hatırlatıcınızı oluşturmaya başlamak için aşağıdaki düğmeyi tıklayın!</string>
+    <string name="title_activity_add_reminder">Hatırlatıcı Ekle</string>
+    <string name="title_activity_edit_reminder">Hatırlatıcıyı Düzenle</string>
+    <string name="title_activity_licenses">Lisanslar</string>
+
+    <string name="details">Detaylar</string>
+    <string name="date">Tarih</string>
+    <string name="time">Zaman</string>
+    <string name="repeat">Tekrar</string>
+    <string name="repeat_off">Kapalı</string>
+    <string name="repeat_no">Tekrar Aralığı </string>
+    <string name="repeat_type">Tekrar Türü</string>
+
+    <string name="action_discard_reminder">Hatırlatma Sil</string>
+    <string name="action_save_reminder">Hatırlatma Kaydet</string>
+
+    <string name="editor_activity_title_new_reminder">hatırlatma Detayları Ekle</string>
+    <string name="editor_activity_title_edit_reminder">Hatırlatma Düzenle</string>
+    <string name="unsaved_changes_dialog_msg">Yaptığınız değişiklikler silinsin ve düzenlemeyi bıraktınız mı?</string>
+    <string name="discard">Atma</string>
+
+    <string name="keep_editing">Düzenlemeye Devam Et</string>
+    <string name="delete_dialog_msg">hatırlatmayı silmek mi istiyorsunuz?</string>
+
+    <string name="delete">sil</string>
+
+    <string name="cancel">iptal</string>
+    <string name="editor_delete_reminder_successful">Hatırlatma silindi</string>
+
+    <string name="editor_delete_reminder_failed">Hatırlatıcı silinirken hata oluştu</string>
+
+    <string name="editor_insert_reminder_successful">Hatırlatma kaydedildi</string>
+
+    <string name="editor_insert_reminder_failed">hatırlatma hata var</string>
+
+    <string name="editor_update_reminder_successful">Hatırlatma yüklendi</string>
+
+    <string name="editor_update_reminder_failed">Hatırlatma güncellenirken hata oluştu</string>
+
+    <string name="reminder_title">Hatırlatıcı</string>
+
+
+</resources>

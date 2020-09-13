@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.saglikd2">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+    <application
+        android:icon="@drawable/acilis"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main3Activity"
+            android:theme="@style/NoAppTheme">
+
+        </activity>
+        <activity android:name=".VideoActivity" />
+        <activity android:name=".AyakBakimi" />
+        <activity android:name=".GirisYap" />
+        <activity android:name=".RetrieveData" />
+        <activity android:name=".AnaSayfa" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/NoAppTheme" />
+        <activity android:name=".Diabetes_org" />
+        <activity
+            android:name=".AcilisEkran"
+            android:exported="true"
+            android:theme="@style/NoAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddReminderActivity"
+            android:label="@string/title_activity_add_reminder"
+            android:parentActivityName=".Main3Activity"
+            android:theme="@style/NoAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main3Activity"
+                />
+        </activity>
+        <activity android:name=".MainAlarmActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".EgitimKatologlari" />
+        <activity android:name=".KanSekeriOlcum" />
+        <activity android:name=".InsulinUygulama" />
+        <activity android:name=".Hipoglisemi" />
+        <activity android:name=".Hiperglisemi" />
+        <activity android:name=".Beslenme" />
+        <activity android:name=".InsulinBolgeleri" />
+        <activity android:name=".InsulinSaklama" />
+        <activity android:name=".DiyabetikIlaclar" />
+        <activity android:name=".InsulinCesitleri" />
+        <activity android:name=".Egzersiz" />
+        <activity android:name=".Alarm" />
+        <provider
+            android:name=".data.AlarmReminderProvider"
+            android:authorities="com.example.saglikd2"
+            android:exported="false" />
+        <service
+            android:name=".reminder.ReminderAlarmService"
+            android:exported="false" />
+
+        <receiver android:name=".AlertReceiver" />
+    </application>
+
+</manifest>

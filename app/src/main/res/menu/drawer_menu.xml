@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_import"
+            android:title="@string/news" />
+        <item
+            android:id="@+id/nav_diyabet"
+            android:icon="@drawable/ic_import"
+            android:title="@string/diyabet_nedir" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_present"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/nav_predictState"
+            android:icon="@drawable/ic_predict"
+            android:title="@string/predict" />
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_alarm"
+            android:title="@string/alarm" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="@string/chat" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_aboutus"
+            android:title="@string/aboutus" />
+    </group>
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send"
+                android:title="@string/send" />
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@drawable/ic_email"
+                android:title="@string/email" />
+        </menu>
+    </item>
+</menu>

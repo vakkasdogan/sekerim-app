@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1008561865696",
+    "firebase_url": "https://sekerim-bb106.firebaseio.com",
+    "project_id": "sekerim-bb106",
+    "storage_bucket": "sekerim-bb106.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008561865696:android:580f2a9ab1b5476ea72185",
+        "android_client_info": {
+          "package_name": "com.example.saglikd2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008561865696-hg9sscs15ca85di3vu2p8hn0obammu28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNZgLOjGxItdxYpQfc7OkafPlOzkBshOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008561865696-hg9sscs15ca85di3vu2p8hn0obammu28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

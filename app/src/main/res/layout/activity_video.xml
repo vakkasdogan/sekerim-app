@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoActivity">
+    <RelativeLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/baslikana"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="DİYABET NEDİR?"
+            android:textColor="@color/colorPrimary"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="wrap_content"
+            android:layout_height="181dp"
+            app:autoPlay="false"
+            android:layout_below="@id/baslikana"
+            app:showFullScreenButton="false"
+            app:videoId="G7vWjvIKexU" />
+
+        <TextView
+            android:id="@+id/diyabet"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:padding="20sp"
+            android:text="Diyabet ve Belirtileri"
+            android:textSize="25sp"
+            android:layout_below="@+id/youtube_player_view"
+            android:textStyle="bold" />
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="184dp"
+            android:layout_below="@+id/diyabet"
+            app:autoPlay="false"
+            app:showFullScreenButton="false"
+            app:videoId="7209VWwu0As" />
+    </RelativeLayout>
+
+</RelativeLayout>

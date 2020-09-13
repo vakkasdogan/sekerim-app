@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.saglikd2.HomeActivity"
+    tools:openDrawer="start"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorAccent"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+        <RelativeLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="594dp"-->
+<!--                    >-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:id="@+id/card1"-->
+<!--                        android:layout_width="180dp"-->
+<!--                        android:layout_height="250dp"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:onClick="gotokatologlar1"-->
+<!--                        app:cardBackgroundColor="@color/MediumBlue"-->
+<!--                        tools:ignore="OnClick">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="140dp"-->
+<!--                            android:layout_height="120dp"-->
+<!--                            android:layout_marginLeft="25dp"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:onClick="gotokatologlar1"-->
+
+<!--                            android:src="@drawable/egitim1" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="EĞİTİM \nKATALOGLARI"-->
+<!--                            android:textColor="@color/White"-->
+<!--                            android:layout_marginTop="150dp"-->
+<!--                            android:padding="10dp"-->
+<!--                            android:textSize="27sp"-->
+<!--                            android:textStyle="bold" />-->
+<!--                    </androidx.cardview.widget.CardView>-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:layout_width="200dp"-->
+<!--                        android:layout_height="250dp"-->
+<!--                        android:layout_below="@+id/card1"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:onClick="kanTakip1"-->
+
+<!--                        android:layout_toRightOf="@+id/card1"-->
+<!--                        app:cardBackgroundColor="@color/DarkMagenta"-->
+<!--                        tools:ignore="OnClick">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="140dp"-->
+<!--                            android:layout_height="110dp"-->
+<!--                            android:layout_marginLeft="20dp"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:onClick="kanTakip1"-->
+
+
+<!--                            android:src="@drawable/kansekeri1" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="KAN ŞEKERİ TAKİP ÇİZELGESİ"-->
+<!--                            android:textColor="@color/White"-->
+<!--                            android:layout_marginTop="150dp"-->
+<!--                            android:padding="10dp"-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:textSize="27sp"-->
+<!--                            android:textStyle="bold" />-->
+<!--                    </androidx.cardview.widget.CardView>-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:layout_width="198dp"-->
+<!--                        android:layout_height="252dp"-->
+<!--                        android:layout_below="@+id/card1"-->
+<!--                        android:layout_marginLeft="-200dp"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:onClick="goToAlarm1"-->
+
+
+<!--                        android:layout_toRightOf="@+id/card1"-->
+<!--                        app:cardBackgroundColor="@color/ForestGreen"-->
+<!--                        tools:ignore="OnClick">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="140dp"-->
+<!--                            android:layout_height="110dp"-->
+<!--                            android:layout_marginLeft="30dp"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:onClick="goToAlarm1"-->
+
+<!--                            android:src="@drawable/alarm1" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="KAN ŞEKERİ ALARM "-->
+<!--                            android:textColor="@color/White"-->
+<!--                            android:layout_marginTop="150dp"-->
+<!--                            android:padding="10dp"-->
+<!--                            android:textSize="27sp"-->
+<!--                            android:textStyle="bold" />-->
+<!--                    </androidx.cardview.widget.CardView>-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:layout_width="200dp"-->
+<!--                        android:layout_height="250dp"-->
+<!--                        android:layout_toRightOf="@+id/card1"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:onClick="gotoyillik1"-->
+<!--                        app:cardBackgroundColor="@color/Brown"-->
+<!--                        tools:ignore="OnClick">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="125dp"-->
+<!--                            android:padding="10dp"-->
+<!--                            android:layout_marginLeft="20dp"-->
+<!--                            android:onClick="gotoyillik1"-->
+
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:src="@drawable/yillik1" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="YILLIK\nKONTROLLERİM"-->
+<!--                            android:textColor="@color/White"-->
+<!--                            android:layout_marginTop="150dp"-->
+<!--                            android:padding="10dp"-->
+<!--                            android:textSize="24sp"-->
+<!--                            android:textStyle="bold" />-->
+<!--                    </androidx.cardview.widget.CardView>-->
+<!--                </RelativeLayout>-->
+
+<!--            </LinearLayout>-->
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

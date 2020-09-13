@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hiper_arka"
+    tools:context=".Hiperglisemi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/hiper_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/hiper1" />
+
+                <ImageView
+                    android:id="@+id/hiper_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="214dp"
+                    android:layout_below="@+id/hiper_1"
+                    android:src="@drawable/hiper2" />
+
+                <ImageView
+                    android:id="@+id/hiper_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/hiper_2"
+                    android:src="@drawable/hiper3" />
+
+                <ImageView
+                    android:id="@+id/hiper_4"
+                    android:layout_width="192dp"
+                    android:layout_height="299dp"
+                    android:layout_below="@+id/hiper_3"
+                    android:src="@drawable/hiper4" />
+
+                <ImageView
+                    android:id="@+id/hiper_5"
+                    android:layout_width="221dp"
+                    android:layout_height="296dp"
+                    android:layout_below="@+id/hiper_3"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/hiper5" />
+
+                <ImageView
+                    android:id="@+id/hiper_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_below="@+id/hiper_5"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/hiper6" />
+
+                <ImageView
+                    android:id="@+id/hiper_7"
+                    android:layout_width="360dp"
+                    android:layout_height="273dp"
+                    android:layout_below="@+id/hiper_6"
+                    android:src="@drawable/hiper7" />
+
+                <ImageView
+                    android:id="@+id/hiper_8"
+                    android:layout_width="53dp"
+                    android:layout_height="309dp"
+                    android:layout_below="@+id/hiper_6"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/hiper8" />
+                <ImageView
+                    android:id="@+id/hiper_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_below="@+id/hiper_7"
+                    android:src="@drawable/hiper9" />
+
+                <ImageView
+                    android:id="@+id/hiper_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="177dp"
+                    android:layout_below="@+id/hiper_9"
+                    android:src="@drawable/hiper10" />
+
+                <ImageView
+                    android:id="@+id/hiper_11"
+                    android:layout_width="178dp"
+                    android:layout_height="116dp"
+                    android:layout_below="@+id/hiper_10"
+                    android:src="@drawable/hiper11" />
+
+                <ImageView
+                    android:id="@+id/hiper_12"
+                    android:layout_width="208dp"
+                    android:layout_height="113dp"
+                    android:layout_below="@+id/hiper_10"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="13dp"
+                    android:src="@drawable/hiper12" />
+
+                <ImageView
+                    android:id="@+id/hiper_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:layout_below="@+id/hiper_12"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/hiper13" />
+
+                <ImageView
+                    android:id="@+id/hiper_14"
+                    android:layout_width="180dp"
+                    android:layout_height="323dp"
+                    android:layout_below="@+id/hiper_13"
+                    android:src="@drawable/hiper14" />
+
+                <ImageView
+                    android:id="@+id/hiper_15"
+                    android:layout_width="62dp"
+                    android:layout_height="319dp"
+                    android:layout_below="@+id/hiper_13"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="173dp"
+                    android:src="@drawable/hiper15" />
+
+                <ImageView
+                    android:id="@+id/hiper_16"
+                    android:layout_width="184dp"
+                    android:layout_height="201dp"
+                    android:layout_below="@+id/hiper_13"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="62dp"
+                    android:layout_marginRight="0dp"
+                    android:src="@drawable/hiper16" />
+                <ImageView
+                    android:id="@+id/hiper_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:layout_below="@+id/hiper_14"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/hiper17" />
+
+                <ImageView
+                    android:id="@+id/hiper_18"
+                    android:layout_width="92dp"
+                    android:layout_height="163dp"
+                    android:layout_below="@+id/hiper_17"
+                    android:src="@drawable/hiper18" />
+
+                <ImageView
+                    android:id="@+id/hiper_19"
+                    android:layout_width="328dp"
+                    android:layout_height="199dp"
+                    android:layout_below="@+id/hiper_17"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="0dp"
+                    android:src="@drawable/hiper19" />
+                <ImageView
+                    android:id="@+id/hiper_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_below="@+id/hiper_19"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/hiper20" />
+
+                <ImageView
+                    android:id="@+id/hiper_21"
+                    android:layout_width="360dp"
+                    android:layout_height="273dp"
+                    android:layout_below="@+id/hiper_20"
+                    android:src="@drawable/hiper21" />
+
+                <ImageView
+                    android:id="@+id/hiper_22"
+                    android:layout_width="53dp"
+                    android:layout_height="309dp"
+                    android:layout_below="@+id/hiper_20"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/hiper22" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

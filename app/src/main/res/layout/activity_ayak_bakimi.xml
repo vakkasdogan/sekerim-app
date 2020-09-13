@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ayak_arka"
+    tools:context=".AyakBakimi">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/ayak_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ayak1" />
+
+                <ImageView
+                    android:id="@+id/ayak_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="145dp"
+                    android:layout_below="@+id/ayak_1"
+                    android:src="@drawable/ayak2" />
+
+                <ImageView
+                    android:id="@+id/ayak_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/ayak_2"
+                    android:src="@drawable/ayak3" />
+
+                <ImageView
+                    android:id="@+id/ayak_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="243dp"
+                    android:layout_below="@+id/ayak_3"
+                    android:src="@drawable/ayak4" />
+
+                <ImageView
+                    android:id="@+id/ayak_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="327dp"
+                    android:layout_below="@+id/ayak_4"
+                    android:src="@drawable/ayak5" />
+
+                <ImageView
+                    android:id="@+id/ayak_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_below="@+id/ayak_5"
+                    android:src="@drawable/ayak6" />
+
+                <ImageView
+                    android:id="@+id/ayak_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_below="@+id/ayak_6"
+                    android:src="@drawable/ayak7" />
+
+                <ImageView
+                    android:id="@+id/ayak_8"
+                    android:layout_width="401dp"
+                    android:layout_height="41dp"
+                    android:layout_below="@+id/ayak_7"
+                    android:src="@drawable/ayak8" />
+                <ImageView
+                    android:id="@+id/ayak_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_below="@+id/ayak_8"
+                    android:src="@drawable/ayak9" />
+
+                <ImageView
+                    android:id="@+id/ayak_10"
+                    android:layout_width="401dp"
+                    android:layout_height="101dp"
+                    android:layout_below="@+id/ayak_9"
+                    android:src="@drawable/ayak10" />
+
+                <ImageView
+                    android:id="@+id/ayak_11"
+                    android:layout_width="401dp"
+                    android:layout_height="113dp"
+                    android:layout_below="@+id/ayak_10"
+                    android:src="@drawable/ayak11" />
+
+                <ImageView
+                    android:id="@+id/ayak_12"
+                    android:layout_width="401dp"
+                    android:layout_height="233dp"
+                    android:layout_below="@+id/ayak_11"
+                    android:src="@drawable/ayak12" />
+
+                <ImageView
+                    android:id="@+id/ayak_13"
+                    android:layout_width="401dp"
+                    android:layout_height="95dp"
+                    android:layout_below="@+id/ayak_12"
+                    android:src="@drawable/ayak13" />
+
+                <ImageView
+                    android:id="@+id/ayak_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="168dp"
+                    android:layout_below="@+id/ayak_13"
+                    android:src="@drawable/ayak14" />
+
+                <ImageView
+                    android:id="@+id/ayak_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/ayak_14"
+                    android:src="@drawable/ayak15" />
+
+                <ImageView
+                    android:id="@+id/ayak_16"
+                    android:layout_width="80dp"
+                    android:layout_height="61dp"
+                    android:layout_below="@+id/ayak_15"
+                    android:src="@drawable/ayak16" />
+
+                <ImageView
+                    android:id="@+id/ayak_17"
+                    android:layout_width="80dp"
+                    android:layout_height="61dp"
+                    android:layout_below="@+id/ayak_16"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginStart="60dp"
+                    android:src="@drawable/ayak17" />
+
+                <ImageView
+                    android:id="@+id/ayak_18"
+                    android:layout_width="80dp"
+                    android:layout_height="61dp"
+                    android:layout_below="@+id/ayak_17"
+                    android:layout_marginTop="-15dp"
+                    android:src="@drawable/ayak18" />
+
+                <ImageView
+                    android:id="@+id/ayak_19"
+                    android:layout_width="80dp"
+                    android:layout_height="61dp"
+                    android:layout_below="@+id/ayak_18"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="-15dp"
+                    android:src="@drawable/ayak19" />
+                <ImageView
+                    android:id="@+id/ayak_20"
+                    android:layout_width="97dp"
+                    android:layout_height="61dp"
+                    android:layout_below="@+id/ayak_19"
+                    android:layout_marginTop="-15dp"
+                    android:src="@drawable/ayak20" />
+
+                <ImageView
+                    android:id="@+id/ayak_21"
+                    android:layout_width="80dp"
+                    android:layout_height="61dp"
+                    android:layout_below="@+id/ayak_20"
+                    android:layout_marginTop="-15dp"
+                    android:layout_marginStart="60dp"
+                    android:src="@drawable/ayak21" />
+                <ImageView
+                    android:id="@+id/ayak_22"
+                    android:layout_width="80dp"
+                    android:layout_height="61dp"
+                    android:layout_below="@+id/ayak_21"
+                    android:layout_marginTop="-15dp"
+                    android:src="@drawable/ayak22" />
+
+                <ImageView
+                    android:id="@+id/ayak_23"
+                    android:layout_width="259dp"
+                    android:layout_height="368dp"
+                    android:layout_below="@+id/ayak_15"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="-186dp"
+                    android:layout_toRightOf="@id/ayak_17"
+                    android:src="@drawable/ayak23" />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
